@@ -1,0 +1,19 @@
+::: {.panel .panel-default}
+::: {style="text-align: center;"}
+## Who am I {style="text-align: center;"}
+
+::: {.panel .panel-default}
+My name is Mustafa. As a master's graduate in economics and statistics, I like to approach each opportunity as a chance to combine honest analysis with practical solutions. For me, balance is more than a buzzword, it's a mindset that guides both my work and how I show up for others. Whether I am deep diving into risk models or joining discussions on machine learning, economics or statistics around a whiteboard, my curiosity is continually sparked by the limitless potential I see. I've learned that my best results often come when I combine clear communication with a readiness to adapt.
+:::
+:::
+:::
+
+::: {.panel .panel-default}
+## Stories of Growth {style="text-align: center;"}
+
+::: {.panel .panel-default}
+From leading a football team as a captain with players from varied backgrounds, I learned that clear communication and respect for everyone's strengths are more powerful than any strategy alone. In a different context, I found initiating sales conversations unfamiliar and challenging at first. By treating each new interaction as a learning opportunity, asking for feedback, and practicing consistently, I gradually became more confident and skilled at building connections. These lessons taught me that openness and a willingness to improve are simply indispensable in professional life.
+
+Looking forward, I aim to build a career as a risk specialist, data specialist, or senior adviser in economics, where I believe technical analysis and collaboration are critical. I bring a mindset shaped by teamwork, adaptability, and a genuine interest in helping real people benefit from well-crafted solutions.
+:::
+:::

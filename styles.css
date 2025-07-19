@@ -1,0 +1,142 @@
+/* General body styling */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f2f2f2; /* Light grey background */
+  color: #555; /* Softer text color */
+}
+
+/* Hero section styling with overlay */
+.hero {
+  background: url('images/spills.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay for text visibility */
+  z-index: 0;
+}
+
+.hero h1,
+.hero p {
+  position: relative;
+  z-index: 1;
+}
+
+.hero h1 {
+  font-size: 2.5rem; /* Scales better on mobile */
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* Navigation bar active state */
+.navbar .active {
+  font-weight: bold;
+  color: #0056b3; /* Darker blue for active state */
+  text-decoration: underline;
+}
+
+/* Dropdown styling for navbar menus */
+.navbar .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.navbar .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.navbar .dropdown-menu {
+  display: none; /* Hidden by default */
+  position: absolute;
+  background-color: white; /* Matches the theme */
+  min-width: 160px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  z-index: 1;
+  padding: 10px 0;
+  border-radius: 8px;
+  list-style: none; /* Remove bullet points */
+  margin: 0;
+}
+
+.navbar .dropdown-menu a {
+  color: #555; /* Neutral text color */
+  padding: 10px 20px; /* Spacing for items */
+  text-decoration: none; /* Remove underline */
+  display: block;
+}
+
+.navbar .dropdown-menu a:hover {
+  background-color: #f8f8f8; /* Light gray on hover */
+  color: #0056b3; /* Corporate blue */
+}
+
+/* Container layout */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+/* Card styling */
+.card-container {
+  flex: 1 1 calc(33.333% - 30px);
+  min-width: 280px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  background-color: white;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  background-color: #f8f8f8;
+}
+
+.card-container h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Remove underlining and ensure clickable cards */
+.card-container a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  height: 100%;
+}
+
+.card-container a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* General link styling */
+body a {
+  text-decoration: none;
+  color: #007bff; /* Consistent link color */
+  transition: color 0.3s ease;
+}
+
+body a:hover {
+  color: #0056b3; /* Darker blue on hover */
+  text-decoration: underline;
+}
