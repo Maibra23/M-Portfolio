@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
   render:
     - index.qmd
     - about.qmd
@@ -31,5 +32,4 @@ format:
     toc: true
     embed-resources: true
 
-output-dir: docs
 
